@@ -9,6 +9,11 @@ html, body {
     margin: 0; 
 }
 
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+
 .head-container{
     box-shadow: 0 0 2px #0000001a;
     position: fixed;
@@ -541,6 +546,7 @@ html, body {
     width: 935px;
 }
 
+
 .slider_person{
     border-bottom-left-radius: 17px;
     border-bottom-right-radius: 0px;
@@ -563,12 +569,35 @@ html, body {
     padding: 25.5px 70px;
 }
 
+.slider_p{
+    display: contents;
+    font-size: 24px;
+    font-weight: 500;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.slider_content hr{
+    border: 1.5px solid #e5e7eb;
+    color: #e5e7eb;
+    width: 100%;
+    margin-top: 10px;
+}
+
 .slider_author{
     align-items: start;
     display: flex
 ;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
+}
+
+.slider_author label{
+    color: #020a19;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .slider_button_right{
