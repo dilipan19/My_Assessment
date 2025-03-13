@@ -120,3 +120,8 @@ window.addEventListener("scroll", function () {
     }
 });
 
+
+function newPage() {
+    window.open("https://hexnode.com/mobile-device-management/cloud/signup/", "_blank");
+}
+
